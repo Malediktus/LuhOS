@@ -1,0 +1,6 @@
+# Editor directories
+.vscode/
+
+# Compile and runtime directories
+sysroot/
+logs/

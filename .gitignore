@@ -4,3 +4,8 @@
 # Compile and runtime directories
 sysroot/
 logs/
+kernel/bin/
+kernel/build/
+
+# Compile and runtime files
+image.hdd

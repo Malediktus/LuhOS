@@ -16,6 +16,7 @@ LDFLAGS=-lgcc
 
 OBJECTS=$(OBJDIR)/sys/kernel.c.o \
 				$(OBJDIR)/sys/port.c.o \
+				$(OBJDIR)/sys/page_alloc.c.o \
 				$(OBJDIR)/lib/string.c.o \
 				$(OBJDIR)/lib/log.c.o \
 				$(OBJDIR)/arch/$(ARCH)/crti.S.o \

@@ -36,6 +36,7 @@ LuhOS is designed to be run on x86-based architectures. To build and run LuhOS, 
 
 - A modern x86-compatible CPU.
 - A development environment that includes GCC (cross-compiler), Binutils (cross-binutils), GNU Make, and the Limine bootloader (already included).
+- Any version of GNU mtools.
 - Git for version control.
 - Optional: QEMU emulator for testing.
 - Optional: Doxygen for building documentation.

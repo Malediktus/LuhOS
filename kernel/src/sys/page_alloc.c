@@ -24,7 +24,7 @@ static void bit_clear(uint64_t *bitmap, uint64_t index)
   bitmap[array_index] &= ~(1ULL << bit_offset);
 }
 
-static bool bit_get(const uint64_t *bitmap, uint64_t index)
+static int bit_get(const uint64_t *bitmap, uint64_t index)
 {
   uint64_t array_index = index / 64;
   uint64_t bit_offset = index % 64;

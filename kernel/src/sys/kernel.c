@@ -29,17 +29,6 @@ void _start(void)
 
   page_alloc_init(memmap_request.response, memmap_request.response->entry_count);
 
-  // TODO: Theres an issue where palloc() given an unsuable address and qemu crashes
-
-  // void *test = palloc();
-  // while (test != NULL)
-  {
-    // test = palloc();
-    // LOG_INFO("Test: 0x%p", test);
-    // memset(test, 0xFFFFFFFF, PAGE_SIZE);
-  }
-  // pfree(test);
-
   LOG_INFO("Finished kernel routine");
   asm("cli");
   asm("hlt");
